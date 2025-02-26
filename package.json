@@ -2,7 +2,7 @@
   "name": "prisma-express",
   "version": "1.0.0",
   "description": "Padrão de corpo",
-  "main": "dist/serve.js",
+  "main": "dist/server.js",
   "scripts": {
     "start": "node dist/serve.js",
     "build" : "npx tsc",
