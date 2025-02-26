@@ -2,9 +2,9 @@
   "name": "prisma-express",
   "version": "1.0.0",
   "description": "Padrão de corpo",
-  "main": "index.js",
+  "main": "dist/serve.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node dist/serve.js",
     "build" : "npx tsc",
     "dev": "dotenv -e .env.develop -- tsnd --respawn src/server.ts",
     "migrate:dev": "dotenv -e .env.develop -- npx prisma migrate dev",
